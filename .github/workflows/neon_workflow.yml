@@ -1,11 +1,11 @@
-name: Create/Delete Branch for Pull Request
+name: Create Neon Branch for Pull Request
 
 on:
   pull_request:
-    types: [opened, closed]
+    types: [opened]
 
 jobs:
-  branch:
+  create-branch:
     runs-on: ubuntu-latest
     steps:
       - uses: neoninc/create-branch-action@v1
