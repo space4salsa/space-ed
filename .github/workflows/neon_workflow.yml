@@ -10,5 +10,5 @@ jobs:
     steps:
       - uses: neoninc/create-branch-action@v1
         with:
-          apiKey: ${{ secrets.NEON_API_KEY }}
-          projectId: ${{ secrets.NEON_PROJECT_ID }}
+          apiKey: ${{ GitHub repo space4salsa/space-ed }}
+          projectId: ${{rapid-surf-57518517}}
